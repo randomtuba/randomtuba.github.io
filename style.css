@@ -1,4 +1,29 @@
 body {
   font-family: helvetica, arial, sans-serif, typewriter;
   margin: 2em;
+  color: white;
+  background: black;
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #003891;
+  border-color: #4f4c91;
+  border-radius: 5px;
+  transition-duration: 0.2s;
+}
+
+.button:hover {
+  display: inline-block;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: #bdd6fc;
+  border-color: #bdd6fc;
+  border-radius: 5px;
 }
