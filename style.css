@@ -27,3 +27,15 @@ body {
   border-color: #bdd6fc;
   border-radius: 5px;
 }
+
+.button:visited {
+  color: white;
+}
+
+.button:visited:hover {
+  color: black;
+}
+
+a:visited {
+  color: #7000ba;
+}
